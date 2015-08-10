@@ -1,0 +1,134 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-wrap {
+  background-color: deepskyblue;
+}
+
+.main-nav {
+  padding: .8rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.main-nav a {
+  color: white;
+  font-size: 18px;
+  padding: 8px 15px;
+}
+
+.main-nav:first-child {
+  padding-left: 0;
+}
+
+.main-nav:last-child {
+  padding-right: 0;
+}
+
+.main-nav .logo {
+  
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: auto;
+  padding-right: 45px;
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/45191/muffin.png');
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.main-nav .login {
+  background-color: tomato;
+  border-radius: 5px;
+  padding: 7px 16px; 
+  margin-left: 20px;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 300px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description, .posts {
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.posts {
+  text-align: center;
+}
+
+.blog-entries {
+  border-radius: 5px;
+}
+
+.blog-entries li {
+  border-bottom: rgba(0,0,0,1);
+  padding: 5px;
+}
+
+.blog-entries .post-author {
+  color: #ccc;
+}
+
+.secondary-nav-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.secondary-nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.secondary-nav a {
+  padding: 0 20px;
+}
+
+.main-footer {
+  background-color: deepskyblue;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
