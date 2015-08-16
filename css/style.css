@@ -1,6 +1,14 @@
 body {
-  font-family: sans-serif;
+  font-family: Helvetica;
   margin: 0;
+  background-image: url('../images/pattern.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.description {
+  font-family: Georgia;
 }
 
 ul {
@@ -24,18 +32,23 @@ a {
 }
 
 .nav-wrap {
-  background-color: yellow;
+  background-color: rgba(153,238,238,0.5);
+}
+
+a:hover { 
+  background-color: rgba(171,172,171, 0.7);
+  border-radius: 5px;
 }
 
 .main-nav {
-  padding: .8rem;
+  padding: 0.8rem;
   display: flex;
   align-items: center;
   margin-bottom: 15px;
 }
 
 .main-nav a {
-  color: white;
+  color: #fff;
   font-size: 18px;
   padding: 8px 15px;
 }
@@ -51,7 +64,7 @@ a {
 .main-nav .logo {
   
   font-weight: bold;
-  font-size: 24px;
+  font-size: 36px;
   margin-right: auto;
   padding-right: 45px;
   background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/45191/muffin.png');
@@ -61,7 +74,7 @@ a {
 }
 
 .main-nav .login {
-  background-color: tomato;
+  background-color: #d07;
   border-radius: 5px;
   padding: 7px 16px; 
   margin-left: 20px;
@@ -73,6 +86,15 @@ a {
 
 .right {
   width: 300px;
+  line-height: 25px;
+}
+
+aside {
+  width: 600px;
+  margin: 60px;
+  background-color: #fff;
+  border-radius: 10px;
+
 }
 
 p {
@@ -91,7 +113,14 @@ p {
 }
 
 .posts {
-  text-align: center;
+  text-align: left;
+  font-size: 1.5em;
+  color: #d07;
+  margin-left: 20px;
+}
+
+.post-author {
+  font-size: 0.9em;
 }
 
 .blog-entries {
@@ -99,12 +128,12 @@ p {
 }
 
 .blog-entries li {
-  border-bottom: rgba(0,0,0,1);
-  padding: 5px;
+  padding: 20px;
 }
 
 .blog-entries .post-author {
-  color: #ccc;
+  color: rgba(17,0,17,0.4);
+
 }
 
 .secondary-nav-wrapper {
@@ -116,19 +145,29 @@ p {
   display: flex;
   justify-content: center;
   margin: 20px 0;
+  padding: 0.8em;
 }
 
 .secondary-nav a {
   padding: 0 20px;
+  border-radius: 5px;
+
 }
 
+.main-footer .copyright {
+  text-align: right;
+  margin-right: 20px;
+  
+}
 .main-footer {
-  background-color: deepskyblue;
-  padding: 20px 0;
+  background-color: rgba(153,238,238,0.5);
+  padding: 10px 0;
   text-align: center;
-  color: white;
-  position: fixed;
+  color: #fff;
+  position: relative;
   bottom: 0;
   width: 100%;
 }
+
+
 
